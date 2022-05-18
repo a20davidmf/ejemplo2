@@ -10,8 +10,8 @@ services:
       - ./:/app
     command:
       - run
-#      - --cors
-#      - "*"
+      - --cors
+      - "*"
       - --enable-api
 #      - --log-file
 #      - out.log
