@@ -17,7 +17,6 @@ services:
 #      - out.log
     depends_on:
       - action-server
-      - mysql
     networks:
       - all
   action-server:
